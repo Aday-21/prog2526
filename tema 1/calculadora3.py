@@ -1,4 +1,6 @@
+# Sirve para importar la funcion math.pow
 import math
+
 print("Operaciones disponibles")
 print("- Suma")
 print("- Resta")
@@ -6,8 +8,9 @@ print("- Multiplicación")
 print("- División")
 print("- Raiz Cuadrada")
 print("- Potencia")
+# Definimos variables
 op = input("Introduce la operación que quieras hacer; ")
-
+# Depèndiendo de lo que el usuario introduzca hace una operacion u otra
 if op == "Suma":
     x = int(input("Introduce un valor; "))
     y = int(input("Introduce un valor; "))
@@ -41,6 +44,7 @@ elif op == "Raiz Cuadrada":
 elif op == "Potencia":
     x = int(input("Introduce un valor; "))
     y = int(input("Introduce un valor; "))
+    # math.pow sirve para hacer potencias
     potencia1 = math.pow(x, y)
     print("El resultado es; ", potencia1)
 

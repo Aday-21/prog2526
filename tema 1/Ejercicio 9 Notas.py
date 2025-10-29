@@ -1,5 +1,7 @@
+# Definimos variable
 nota = int(input("Introduce la nota (0-10): "))
 
+#Procedimiento if para calcular la nota
 if 0 <= nota <= 4:
     print("Insuficiente")
 elif nota == 5:

@@ -1,13 +1,9 @@
+# Definimos variables
 x = int(input("Introduce un valor; "))
 y = int(input("Introduce un valor; "))
-print("Suma")
-print("Resta")
-print("Multiplicación")
-print("División")
-print("Raiz Cuadrada")
-print("Potencia")
 op = input("Introduce la operación que quieras hacer; ")
 
+# Dependiendo de lo que el usuario introduzca el codigo if hace una operació u otra
 if op == "Suma":
     suma = x + y
     print("El resultado es; ", suma)
@@ -29,8 +25,6 @@ elif op == "Raiz Cuadrada":
     raiz2 = y ** 0.5
     print("El resultado es; ", raiz1)
     print("El resultado es; ", raiz2)
-
-elif op == "Potencia":
 
 else:
     print("No se puede hacer nada")

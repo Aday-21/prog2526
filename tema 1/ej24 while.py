@@ -1,6 +1,8 @@
+# Definimos variables
 suma = 0
 numero = float(input("Introduce un número (0 para terminar) "))
 
+# Bucle while para sumar
 while numero != 0:
     suma += numero
     numero = float(input("Introduce otro número (0 para terminar) "))
