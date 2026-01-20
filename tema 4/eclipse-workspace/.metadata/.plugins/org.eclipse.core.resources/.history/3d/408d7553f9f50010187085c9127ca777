@@ -1,0 +1,40 @@
+package Ejercicio1;
+import Ejercicio2.Sexo;
+
+public class Persona {
+	// Atributos
+	String nombre;
+	int edad;
+	double estatura;
+	DiaDeLaSemana dia;
+	Sexo sexo;
+
+	// Constructor
+	public Persona(String nombre, int string, float estatura, DiaDeLaSemana f, Sexo sexo) {
+		this.nombre = nombre;
+	    this.edad = string;
+	    this.estatura = estatura;
+	    this.dia = f;
+	    this.sexo = sexo;
+	}
+
+	public Persona(String string, int i, double d) {
+		
+	}
+
+		// Método saludar
+	    public void saludar() {
+	        System.out.println("Hola, mi nombre es " + nombre);
+	    }
+
+	    // Método cumplirAños
+	    public void cumplirAños() {
+	        edad += 1;
+	    }
+
+	    // Método crecer
+	    public void crecer(double incremento) {
+	        incremento = estatura * 0.08;
+	        estatura += incremento;
+	    }
+	} 

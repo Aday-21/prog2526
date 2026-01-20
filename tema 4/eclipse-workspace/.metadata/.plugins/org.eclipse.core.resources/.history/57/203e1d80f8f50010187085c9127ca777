@@ -1,0 +1,33 @@
+package Ejercicio1;
+import Ejercicio2.Sexo;
+public class Persona {
+
+     //Atributos
+    String nombre;
+    String apellido;
+    int edad;
+    double estatura;
+    Sexo sexo;
+   
+    // Constructores
+    Persona(String nombre,String apellido, int edad, double estatura, Sexo sexo){
+    	this.sexo = sexo;
+        this
+    }
+    
+   
+    //funciones
+            
+    void saludar() {
+        System.out.println("Holaa");
+    }
+    
+    void cumplirAnios() {
+        edad = edad + 1; 
+    }
+    
+    void crecer(double incremento) {
+        estatura = estatura + incremento;
+    }
+}
+   
