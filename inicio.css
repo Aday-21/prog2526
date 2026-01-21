@@ -24,6 +24,7 @@ h1 {
     padding: 20px; 
     display: flex;
     align-items: center;
+    margin-left: 350px;
 }
 .articulo { 
     border: 1px solid #ccc; 
@@ -47,5 +48,6 @@ footer {
     justify-content: space-between; 
     font-size: 14px; 
 }
+
 
 
