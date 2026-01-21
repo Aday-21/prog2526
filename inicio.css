@@ -34,7 +34,6 @@ h1 {
     margin-left: 20px;
     align-items: center;
     text-align: center;
-    margin-left: 350px;
 }
 .articulo img { 
     max-width: 150px; 
@@ -48,3 +47,4 @@ footer {
     justify-content: space-between; 
     font-size: 14px; 
 }
+
