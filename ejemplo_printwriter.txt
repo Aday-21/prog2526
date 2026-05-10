@@ -1,0 +1,16 @@
+package ejemplo_printwrite;
+
+import java.io.PrintWriter;
+
+public class printwrite {
+
+	public static void main(String[] args) {
+		PrintWriter ejemplo = new PrintWriter("archivo.txt");
+
+        ejemplo.println("Hola mundo");
+
+        ejemplo.close();
+
+	}
+
+}
